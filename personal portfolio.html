@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTC-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Personal Portfolio Website </title> 
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="header">
+        <div class="button-container">
+            <nav>
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Projects</a></li>
+                    <li><a href="#portfolio">Snap-Shots</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text1">
+                <p>Associate Life Events Specalist</p>
+                <h1>Hi! My name is <br> <span>Adna</span> Osmancevic<br>
+                </h1>
+            </div>
+        </div>
+    </div>
+
+<!--    ---------about----------> 
+
+    <div id="about"> 
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="grad.png">
+                </div>
+
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>
+                        I am Adna Osmancevic, and I currently work at Unum as an Associet Life Events Specalist.
+                         My fascination with databases began during high school in 2018, when I participated in 
+                         the Step-Up Chattanooga program. This invaluable program provided mentorship and internships,
+                          helping me develop key skills such as resume building, self-introduction, and effective interview techniques.
+                           I was paired with Medi-tract, a company that introduced me to database management within their software systems. 
+                           This experience ignited my passion for working with data; I found the technical aspects both straightforward and enjoyable.
+                            Although the internship was only for the summer, it inspired me to enroll in a coding class during the following school year.
+                             This is where I was first introduced to HTML and CSS. HTML quickly became my favorite language, and I enjoyed building websites from scratch—similar to this portfolio.
+                             Our class journeyed from the basics of coding with our first "Hello World" to developing fully functional websites with complex elements, sparking my interest in a career in coding.
+                            </p>
+
+                            <div class="tab-titles">
+                                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                                <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                                <p class="tab-links" onclick="opentab('education')">Education</p>
+                            </div>
+                            
+                            <div class="tab-contents active-tab" id="skills">
+                                <ul>
+                                    <li>Python</li>
+                                    <li>SQL</li>
+                                    <li>HTML/CSS</li>
+                                    <li>R Studio</li>
+                                    <li><span>Microsoft Office</span><br>Excel, Powerpoint, Word</li>
+                                </ul>
+                            </div>
+                            
+                            <div class="tab-contents" id="experience">
+                                <ul>
+                                    <li>Unum</li>
+                                    <li>Rose and Remington</li>
+                                    <li>Sally Beauty</li>
+                                    <li>Chick-Fil-A</li>
+                                    <li>Medi-Tract</li>
+                                </ul>
+                            </div>
+                            
+                            <div class="tab-contents" id="education">
+                                <ul>
+                                    <li><span>University of Tennessee at Chattanooga</span><br> Bachelors in Business Administration with a focus in Business Analytics</li>
+                                    <li><span>Chattanooga State Community College</span><br>Associates in Marketing</li>
+                                </ul>
+                            </div>
+                    </div>       
+                </div>
+            </div>
+        </div>
+             
+<!--    ---------projects----------> 
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">Projects</h1>
+        <div class="services-list">
+                <div>
+                    <h2>Chattanooga City Expense Breakdown</h2>
+                    <p>
+                        Taking a look at Chattanooga's own database, I came accros the expense breakdown database. I wanted to gain a better
+                        understnading of where the projected and approved ammount of expenses were mainly invested in.  
+                    </p>
+                    <a href="https://github.com/AdnaOsmancevic/Jupyter-Notebook-Codes/blob/main/Chattanooga_Expense_breakdown%20(2).ipynb">View Python Script</a>
+                </div>
+
+                <div>
+                    <h2>Chattanooga Accident Report</h2>
+                    <p>
+                        For this project, I wanted to be able to create a Pivottable to be able to filter different requirements. In this project,
+                        I added 2 links, the first for the raw csv file dataset, and the second takes you to a preview of the pivottable, where you can then download the excel file and see more of my work! 
+                    </p>
+                    <a href="https://github.com/AdnaOsmancevic/Jupyter-Notebook-Codes/blob/main/Chattanooga_accident_report.ipynb">View Python Script</a>
+                    <a href="C:\Users\Adnao\OneDrive\Desktop\Phython\personal portfolio\chatt_accident2.htm">View PivotTable and Download</a>
+                </div>
+
+                <div>
+                    <h2>National School Excel Sheet</h2>
+                    <p>
+                        As a recent graduate myself, I wanted to create a nation wide school dataset that I would be able to filter through based on specifics I wanted.
+                        I created this in order to be able to see different schools that students might be intrested in to continue their education. 
+                    </p>
+                    <a href="C:\Users\Adnao\OneDrive\Desktop\Phython\personal portfolio\nationalschoolfilter.htm">View PivotTable and Download</a>
+                </div>
+        </div>
+
+    </div>
+</div>
+<!--    ---------portfolio----------> 
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">Snap-Shots of Project Results </h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="graph.png">
+                <div class="layer">
+                    <h3> Chattanooga Expenses graph and table</h3>
+                    <p>Once extracting and cleaning the data, I converted the phython file into Excel to gain a better visual understanding of my findings</p>
+            </div>
+            </div>
+
+            <div class="work-list">
+                <div class="work">
+                    <img src="car.png">
+                    <div class="layer">
+                        <h3> Chattanooga Accident Report</h3>
+                        <p>Once extracting and cleaning the data, I converted the phython file into Excel where I then proceded to clean, and visualize my data better</p>
+                </div>
+                </div>
+            </div>
+
+                <div class="work-list">
+                    <div class="work">
+                        <img src="school.png">
+                        <div class="layer">
+                            <h3> National School filter Excel master sheet</h3>
+                            <p>This project highlights the usefulness and importance of simple filtering and the benifits of PivotTables</p>
+                    </div>
+                    </div>
+                </div>
+             </div>
+          </div>
+</div>
+
+<!--    ---------contact----------> 
+<div id="contact">
+    <div class="container">
+        <div class="row contact-container">
+            <h1 class="sub-title">Contact Me</h1>
+
+            <div class="contact-left">
+                <p>Adnaosmancevic03@gmail.com</p>
+                <p>423-504-8992</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/adnao/">Let's connect on LinkedIn!</a>
+                </div>
+            </div>
+
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">  
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+    <script>
+                                
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname) {
+        var tabcontent = document.getElementById(tabname);
+
+        if (tabcontent.classList.contains("active-tab")) {
+            tabcontent.classList.remove("active-tab");
+            event.currentTarget.classList.remove("active-link");
+        } else {
+            for (var tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+
+            for (var content of tabcontents) {
+                content.classList.remove("active-tab");
+            }
+
+            event.currentTarget.classList.add("active-link");
+
+            tabcontent.classList.add("active-tab");
+        }
+    }
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwddlnpRdS_VxdY0LH267v1t89wv3HMNa-pE-PhPCHJiCZIdGGjRxCz9cz_cp_tqBPVHQ/exec';
+const form = document.forms['submit-to-google-sheet'];
+const msg = document.getElementById("msg");
+
+form.addEventListener('submit', e => {
+    e.preventDefault();
+    
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully!";
+            setTimeout(function() {
+                msg.innerHTML = "";
+            }, 5000);
+            form.reset();
+        })
+        .catch(error => {
+            msg.innerHTML = "Error in sending message!";
+        });
+});
+
+  </script>
+
+
+</body>
+</html>
